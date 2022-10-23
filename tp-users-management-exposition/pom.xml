@@ -7,4 +7,14 @@
   </parent>
   <artifactId>tp-users-management-exposition</artifactId>
   <name>tp-users-management-exposition</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
